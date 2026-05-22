@@ -1,0 +1,28 @@
+[project]
+name = "geospatial-data-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.31.0",
+    "beautifulsoup4>=4.14.3",
+    "duckdb>=1.5.3",
+    "fiona>=1.10.1",
+    "geoalchemy2>=0.20.0",
+    "geopandas>=1.1.3",
+    "lxml>=6.1.1",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "pdfplumber>=0.11.9",
+    "prefect>=3.7.1",
+    "psycopg2-binary>=2.9.12",
+    "pyarrow>=24.0.0",
+    "pydantic>=2.13.4",
+    "pydantic-ai>=1.101.0",
+    "pymupdf>=1.27.2.3",
+    "pyproj>=3.7.2",
+    "requests>=2.34.2",
+    "shapely>=2.1.2",
+    "sqlalchemy>=2.0.49",
+]
